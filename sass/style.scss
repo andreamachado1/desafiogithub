@@ -3,7 +3,7 @@
 @import 'mixin';
 
 body {
- background-image: url(../imagesredhots/back2.jpg);
+ background-image: url(../imagesredhots/back3.jpg);
   background-size: auto;
   width: 100% !important;
 height:500px ;
@@ -43,7 +43,8 @@ ul {
 }
 
 .image1 {
-  border: solid 3px;
+  background-color:rgba(0,0,0,0.2);
+  border:solid  3px;
   border-color: $image1-border-color;
   display: flex;
   justify-content: right;
@@ -68,7 +69,7 @@ ul {
       &:hover{
           text-decoration: underline;
           color:$hover-color;
-          background-color:lightgrey;
+          background-color:$hover-background-color;
          font-family:$font-menu;
          word-spacing: normal;
         font-size: 30px;
@@ -83,12 +84,14 @@ ul {
         font-family:$font-menu;
         float: left;
         font-weight: bolder;
+    
   }
 }
 }
 }
 
 .image2 {
+  background-color:rgba(0,0,0,0.2);
   border: solid 3px;
   border-color: $image2-border-color;
   display: flex;
@@ -114,7 +117,7 @@ ul {
       &:hover{
           text-decoration: underline;
           color:$hover-color;
-          background-color:lightgrey;
+          background-color:$hover-background-color;
          font-family:$font-menu;
          word-spacing: normal;
         font-size: 30px;
@@ -128,12 +131,14 @@ ul {
         font-family: $font-menu;
         float: left;
         font-weight: bolder;
+       
       }
   }
  }
 }
 
 .image3 {
+  background-color:rgba(0,0,0,0.2);
   border: solid  3px;
   border-color: $image3-border-color;
   display: flex;
@@ -159,7 +164,7 @@ ul {
       &:hover{
           text-decoration: underline;
           color:$hover-color;
-          background-color:lightgrey;
+          background-color:$hover-background-color;
          font-family:$font-menu;
          word-spacing: normal;
         font-size: 30px;
@@ -179,6 +184,7 @@ ul {
 }  
 
 .image4 {
+  background-color:rgba(0,0,0,0.2);
   border: solid 3px;
   border-color: $image4-border-color;
   display: flex;
@@ -203,7 +209,7 @@ ul {
       &:hover{
           text-decoration: underline;
           color:$hover-color;
-          background-color:lightgrey;
+          background-color:$hover-background-color;
          font-family:$font-menu;
          word-spacing: normal;
         font-size: 30px;
@@ -226,6 +232,7 @@ ul {
 } 
 
 .image5 {
+  background-color:rgba(0,0,0,0.2);
   border: solid 3px;
   border-color: $image5-border-color;
   display: flex;
@@ -250,7 +257,7 @@ ul {
       &:hover{
           text-decoration: underline;
           color:$hover-color;
-          background-color:lightgrey;
+          background-color:$hover-background-color;
          font-family:$font-menu;
          word-spacing: normal;
         font-size: 30px;
@@ -264,7 +271,52 @@ ul {
         font-weight: bolder;
         font-family: $font-menu;
         float: left;
+        font-weight: bolder; 
+      }
+  }
+ }
+}
+.image6 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid 3px;
+  border-color: $image5-border-color;
+  display: flex;
+  justify-content: center;
+  font-family: $font-menu;
+  padding-right: 40px; 
+  font-size:18px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family: $font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+  .image6p {
+        color:$image5p-color ;
+        margin-top: 20px;
+        font-size: 12px;
         font-weight: bolder;
+        font-family: $font-menu;
+        float: left;
+        font-weight: bolder; 
       }
   }
  }
@@ -316,9 +368,3 @@ div {
   font-size:20px ;
 
 }
-
-
-
-
-
-

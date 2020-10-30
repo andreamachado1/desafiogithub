@@ -1,5 +1,5 @@
 body {
-  background-image: url(../imagesredhots/back2.jpg);
+  background-image: url(../imagesredhots/back3.jpg);
   background-size: auto;
   width: 100% !important;
   height: 500px;
@@ -18,7 +18,7 @@ body {
 }
 
 ul {
-  color: white;
+  color: whitesmoke;
   background-color: black;
   border-color: white;
   display: flex;
@@ -39,8 +39,9 @@ ul a {
 }
 
 .image1 {
+  background-color: rgba(0, 0, 0, 0.2);
   border: solid 3px;
-  border-color: white;
+  border-color: lightgrey;
   display: flex;
   justify-content: right;
   font-family: Futura;
@@ -83,8 +84,9 @@ ul a {
 }
 
 .image2 {
+  background-color: rgba(0, 0, 0, 0.2);
   border: solid 3px;
-  border-color: white;
+  border-color: lightgrey;
   display: flex;
   justify-content: center;
   font-family: Roboto;
@@ -128,8 +130,9 @@ ul a {
 }
 
 .image3 {
+  background-color: rgba(0, 0, 0, 0.2);
   border: solid 3px;
-  border-color: white;
+  border-color: lightgrey;
   display: flex;
   justify-content: center;
   font-family: Roboto;
@@ -173,8 +176,9 @@ ul a {
 }
 
 .image4 {
+  background-color: rgba(0, 0, 0, 0.2);
   border: solid 3px;
-  border-color: white;
+  border-color: lightgrey;
   display: flex;
   justify-content: center;
   font-family: Roboto;
@@ -219,8 +223,9 @@ ul a {
 }
 
 .image5 {
+  background-color: rgba(0, 0, 0, 0.2);
   border: solid 3px;
-  border-color: white;
+  border-color: lightgrey;
   display: flex;
   justify-content: center;
   font-family: Roboto;
@@ -254,6 +259,52 @@ ul a {
   padding: 10px;
 }
 .image5 h3:hover .image5p {
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: Roboto;
+  float: left;
+  font-weight: bolder;
+}
+
+.image6 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  padding-right: 40px;
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.image6 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image6 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image6 h3:hover .image6p {
   color: black;
   margin-top: 20px;
   font-size: 12px;
